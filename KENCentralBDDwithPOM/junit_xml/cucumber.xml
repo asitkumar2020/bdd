@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="0">
+<testcase classname="Login Feature" name="Validate Login Page With Valid Credentials" time="0">
+<system-out><![CDATA[Given Open Browser and navigate to Login page...............................skipped
+And Check the title of the Login Page.......................................skipped
+Then Enter UserId and Password and click on SignIn button...................skipped
+Then Check the title of the Create Tenancy Page.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Validate the User Page" time="0">
+<skipped><![CDATA[Given Open Browser and go to the User Details page..........................undefined
+And Check the title of the User Page........................................undefined
+Then Check whether all the options are displayed in the MoreAction dropdown.undefined
+Then Check whethet all the options are displayed in the DetailView dropdown.undefined
+]]></skipped>
+</testcase>
+</testsuite>

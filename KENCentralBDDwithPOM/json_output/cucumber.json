@@ -1,0 +1,198 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Validate Login Page With Valid Credentials",
+        "description": "",
+        "id": "login-feature;validate-login-page-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Open Browser and navigate to Login page",
+            "match": {
+              "location": "LoginPage_StepDefinition.open_Browser_and_navigate_to_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Check the title of the Login Page",
+            "match": {
+              "location": "LoginPage_StepDefinition.check_the_title_of_the_Login_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Enter UserId and Password and click on SignIn button",
+            "match": {
+              "location": "LoginPage_StepDefinition.enter_UserId_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Check the title of the Create Tenancy Page",
+            "match": {
+              "location": "LoginPage_StepDefinition.check_the_title_of_the_Create_Tenancy_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Validate the User Page",
+        "description": "",
+        "id": "login-feature;validate-the-user-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "Open Browser and go to the User Details page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "Check the title of the User Page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "Check whether all the options are displayed in the MoreAction dropdown",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "Check whethet all the options are displayed in the DetailView dropdown",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]
